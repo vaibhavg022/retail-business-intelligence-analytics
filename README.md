@@ -36,6 +36,10 @@ Deliverables
 └── data/
     ├── retail-orders-raw.csv
     └── retail-data-dictionary.csv
+
+
+
+    
 Task 03 — Data Ingestion, Cleaning & Preprocessing with Pandas
 
 Objective:
