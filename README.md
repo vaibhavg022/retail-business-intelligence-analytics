@@ -1,6 +1,12 @@
 # Retail Business Intelligence & Data Analytics
 
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live_Dashboard-FF4B4B?style=for-the-badge&logo=streamlit)](https://retail-business-intelligence-analytics-urhxcw74qyyvudplfiqgn5.streamlit.app/)
+
 This repository contains my **Data Analytics & Business Intelligence Internship** project work at **RabTech Academy**.
+
+👉 **Live Interactive Dashboard:** [Retail Business Intelligence & Analytics Dashboard](https://retail-business-intelligence-analytics-urhxcw74qyyvudplfiqgn5.streamlit.app/)
+
+---
 
 # Tasks Completed
 
@@ -278,35 +284,140 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-Project Outcome
+# Task 06 — Executive Decision Report & Capstone Presentation
+## Objective
+Synthesize Tasks 02–05 into an executive-ready Business Intelligence report for management decision-making.
 
-The completed tasks demonstrate an end-to-end data analytics workflow, starting from raw retail data and progressing through data quality assessment, preprocessing, exploratory analysis, statistical insights, and interactive business visualization.
+## Deliverables
+- `Executive_Decision_Report.pdf`
+- `Final_Analytical_Notebook.ipynb`
+- `ROI_Projection.xlsx`
 
-The final Streamlit dashboard provides an interactive interface for analyzing revenue, transactions, customers, categories, payment methods, discounts, items, and time-based performance.
+---
 
-Conclusion
+## Executive KPIs
+- **Revenue:** ₹16,36,956
+- **Transactions:** 12,575
+- **Customers:** 25
+- **Average Order Value:** ₹130.18
+- **Units Sold:** 69,828
+- **Discount-applied transactions:** 33.6%
 
-Tasks 02, 03, 04, and 05 collectively demonstrate a structured approach to Retail Data Analytics and Business Intelligence.
+---
 
-The project combines data quality management, data preprocessing, statistical analysis, visualization, and interactive dashboard development to transform raw transaction data into useful business insights.
+## Key Findings
+- **Butchers** is the highest-revenue category.
+- **2024** is the strongest full year in the supplied dataset.
+- **Cash** is the largest payment channel by revenue.
+- **Discount usage** is material and should be monitored through controlled experiments.
+- The dataset does not contain profit, CAC, churn, or geographic fields, so these metrics are not fabricated.
 
-Author
+---
 
-Vaibhav Gupta
+## Strategic Recommendations
+1. **Optimize category-level discounting.**
+2. **Focus inventory and promotion** on strong revenue segments.
+3. **Institutionalize recurring BI dashboard** and data-quality monitoring.
 
-B.Tech — Computer Science & Engineering
+**Technology & ToolsLanguages & Core Libraries:**
+Python, Pandas, NumPy, SciPyVisualization & Dashboards: Streamlit, Plotly, Matplotlib, SeabornTools & Platforms: Jupyter Notebook, Microsoft Excel, Git & GitHub, Streamlit Community CloudAnalytics 
 
-Areas of Interest
-Data Analytics
-Artificial Intelligence
-Machine Learning
-Python
-Data Science
-Repository Status
-Task	Status
-Task 02 — KPI & Data Quality	Completed
-Task 03 — Data Cleaning & Preprocessing	Completed
-Task 04 — Exploratory Data Analysis	Completed
-Task 05 — Interactive Dashboard	Completed
+**WorkflowPlaintext**
 
-Project Status: Completed
+Raw Retail Dataset
+       │
+       ▼
+KPI Definition & Data Profiling
+       │
+       ▼
+Data Quality Contract & Validation
+       │
+       ▼
+Data Cleaning & Preprocessing
+       │
+       ▼
+Exploratory Data Analysis (EDA)
+       │
+       ▼
+Statistical Analysis & Hypothesis Testing
+       │
+       ▼
+Interactive Dashboard (Streamlit)
+       │
+       ▼
+Executive Decision Report & ROI Projections
+Repository StructurePlaintextRetail-Data-Analytics/
+│
+├── README.md
+│
+├── 02_KPI_Data_Quality/
+│   ├── README.md
+│   ├── KPI_Dictionary_and_DQ_Contract.xlsx
+│   ├── Retail_Data_Profile.ipynb
+│   ├── Data_Quality_Contract.md
+│   └── data/
+│       ├── retail-orders-raw.csv
+│       └── retail-data-dictionary.csv
+│
+├── 03_Data_Cleaning/
+│   ├── README.md
+│   ├── Retail_Data_Cleaning.ipynb
+│   ├── cleaned_retail_data.csv
+│   └── data/
+│       └── retail-orders-raw.csv
+│
+├── 04_Exploratory_Data_Analysis/
+│   ├── README.md
+│   ├── Retail_EDA_Statistical_Insights.ipynb
+│   └── data/
+│       └── retail-orders-raw.csv
+│
+├── 05_Interactive_Dashboard/
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── README.md
+│   └── cleaned_retail_data.csv
+│
+└── 06_Executive_Decision_Report/
+    ├── Executive_Decision_Report.pdf
+    ├── Final_Analytical_Notebook.ipynb
+    └── ROI_Projection.xlsx
+
+# Key Skills Demonstrated
+
+This project demonstrates practical experience in:
+
+* Data profiling & data quality management
+* KPI dictionary development & data contract design
+* Data cleaning & preprocessing
+* Exploratory Data Analysis (EDA) & data visualization
+* Statistical analysis, correlation, & hypothesis testing
+* Interactive dashboard development (Streamlit & Plotly)
+* Executive reporting & management decision-making
+* Business interpretation & strategic recommendations
+* Python-based analytics & Pandas data manipulation
+* Jupyter Notebook development & Git documentation
+
+---
+
+# Repository Status
+
+| Task | Status |
+| :--- | :--- |
+| **Task 02 — KPI & Data Quality** | Completed |
+| **Task 03 — Data Cleaning & Preprocessing** | Completed |
+| **Task 04 — Exploratory Data Analysis** | Completed |
+| **Task 05 — Interactive Dashboard** | Completed |
+| **Task 06 — Executive Decision Report** | Completed |
+
+**Project Status:** Completed 🎉
+
+---
+
+# Author
+
+**Vaibhav Gupta**  
+*B.Tech — Computer Science & Engineering*  
+
+**Areas of Interest:**  
+Data Analytics | Artificial Intelligence | Machine Learning | Python | Data Science
