@@ -399,8 +399,7 @@ EXPECTED_COLUMNS = [
 
 def find_dataset():
 
-    base_dir = Path(__file__).resolve().parent
-    data_dir = base_dir / "data"
+    data_dir = Path(__file__).resolve().parent
 
     possible_files = [
         data_dir / "retail-orders-clean.csv",
