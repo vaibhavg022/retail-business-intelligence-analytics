@@ -225,47 +225,88 @@ This project demonstrates practical experience in:
 * Documentation and reporting
 
 ---
+# Task 05 — Interactive Dashboard & KPI Visualizations
 
-# Expected Outcomes
+## Objective
 
-The completed tasks provide a structured approach for moving from raw retail data to business-oriented analytical insights.
+Develop an interactive business dashboard using the cleaned retail transaction dataset to visualize key KPIs, trends, category performance and customer insights.
 
-The project establishes data-quality expectations first, prepares the dataset for analysis, and then applies statistical and visual techniques to identify meaningful patterns.
+## Technologies Used
 
----
+- Python
+- Pandas
+- Streamlit
+- Plotly
 
-# Conclusion
+## Dashboard Features
 
-Tasks 02, 03, and 04 collectively demonstrate an end-to-end approach to retail data analysis.
+- Revenue KPI
+- Total Transactions
+- Total Customers
+- Average Order Value (AOV)
+- Total Quantity
+- Date, Category, Payment Method and Discount filters
+- Monthly Revenue Trend
+- Category-wise Revenue Analysis
+- Payment Method Analysis
+- Discount Analysis
+- Category × Monthly Revenue Heatmap
+- Top 10 Items by Revenue
+- Yearly Performance
+- Customer Analysis
+- Interactive Dataset Preview
 
-The workflow begins with defining measurable business metrics and data-quality requirements, continues through data cleaning and preparation, and concludes with exploratory and statistical analysis.
+## Dataset
 
-The resulting notebooks, documentation, and supporting files provide reproducible evidence of the analytical process and its findings.
+The dashboard uses the cleaned dataset containing transaction, customer, category, item, pricing, quantity, payment, date and discount-related fields.
 
----
+## KPI Calculation
 
-## Author
+- **Revenue:** Sum of `total_spent`
+- **Transactions:** Unique `transaction_id`
+- **Customers:** Unique `customer_id`
+- **AOV:** Revenue ÷ Unique Transactions
 
-**Vaibhav Gupta**
+## Dataset Limitations
+
+The dataset does not contain dedicated fields for Customer Acquisition Cost (CAC), Churn Rate or geographic location. Therefore, these metrics were not artificially calculated.
+
+## Run Locally
+
+bash
+pip install -r requirements.txt
+streamlit run app.py
+
+
+Project Outcome
+
+The completed tasks demonstrate an end-to-end data analytics workflow, starting from raw retail data and progressing through data quality assessment, preprocessing, exploratory analysis, statistical insights, and interactive business visualization.
+
+The final Streamlit dashboard provides an interactive interface for analyzing revenue, transactions, customers, categories, payment methods, discounts, items, and time-based performance.
+
+Conclusion
+
+Tasks 02, 03, 04, and 05 collectively demonstrate a structured approach to Retail Data Analytics and Business Intelligence.
+
+The project combines data quality management, data preprocessing, statistical analysis, visualization, and interactive dashboard development to transform raw transaction data into useful business insights.
+
+Author
+
+Vaibhav Gupta
 
 B.Tech — Computer Science & Engineering
 
-### Areas of Interest
+Areas of Interest
+Data Analytics
+Artificial Intelligence
+Machine Learning
+Python
+Data Science
+Repository Status
+Task	Status
+Task 02 — KPI & Data Quality	Completed
+Task 03 — Data Cleaning & Preprocessing	Completed
+Task 04 — Exploratory Data Analysis	Completed
+Task 05 — Interactive Dashboard	Completed
 
-* Data Analytics
-* Artificial Intelligence
-* Machine Learning
-* Python
-* Data Science
-
----
-
-## Repository Status
-
-| Task                                | Status    |
-| ----------------------------------- | --------- |
-| Task 02 — KPI & Data Quality        | Completed |
-| Task 03 — Data Cleaning             | Completed |
-| Task 04 — Exploratory Data Analysis | Completed |
-
-**Project Status: Completed**
+Project Status: Completed
